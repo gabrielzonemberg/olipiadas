@@ -7,7 +7,7 @@
 
     <style>
     .color{
-        background-color: black;
+     
     }
     .img{
         height: 350px;
@@ -18,9 +18,33 @@
     .cab{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        background-color: black;
+        justify-content: space-around;      
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/77/Eiffel_Tower_Marsfeld_Paris.jpg);
+        margin-bottom: 300px;
+        background-size: 4000px;
     }
+
+    table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
     </style>
 </head>
 <body>
@@ -34,5 +58,51 @@
 
 
      </header>
+
+     <h2 style="text-align: center;">Resultados das Olimpíadas</h2>
+
+    <table>
+        <tr>
+            <th>Posição</th>
+            <th>País</th>
+            <th>Ouro</th>
+            <th>Prata</th>
+            <th>Bronze</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Estados Unidos</td>
+            <td>27</td>
+            <td>35</td>
+            <td>33</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>China</td>
+            <td>26</td>
+            <td>24</td>
+            <td>17</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>australia</td>
+            <td>18</td>
+            <td>14</td>
+            <td>11</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Brasil</td>
+            <td>2</td>
+            <td>5</td>
+            <td>7</td>
+            <td>14</td>
+        </tr>
+    </table>
+
 </body>
 </html>
