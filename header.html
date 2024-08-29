@@ -1,75 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
-    .noticia{
-width: 1000px ;
-height: 500px;
-    }
-    .noticia img{
-        width: 100%;
-    }
- 
-    .img{
-        height: 350px;
-        width: 350px;
-        margin-bottom: 300px;
+        .noticia {
+            width: 80%;
+            height: 150%;
+        }
 
-    }
+        .noticia img {
+            width: 100%;
+        }
 
-    .cab{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;      
-        background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/77/Eiffel_Tower_Marsfeld_Paris.jpg);
-        margin-bottom: 60px;
-        background-size: 4000px;
-    }
+        .img {
+            height: 100%;
+            width: 95%;
+            margin-bottom: 150px;
 
-    table {
+        }
+
+        .cab {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/77/Eiffel_Tower_Marsfeld_Paris.jpg);
+            margin-bottom: 60px;
+            background-size: 4000px;
+        }
+
+        table {
             width: 50%;
             border-collapse: collapse;
             margin: 20px auto;
             font-family: Arial, sans-serif;
         }
-        th, td {
+
+        th,
+        td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
         }
+
         th {
             background-color: #4CAF50;
             color: white;
         }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
         tr:hover {
             background-color: #ddd;
         }
-        .noticia{
+
+        .noticia {
             display: flex;
 
         }
+
+        @media (max-width:440px){
+            body{
+        background: red;
+            }
+        }
     </style>
 </head>
+
 <body>
-     <header class="cab">
-     <div class="color">
-        <img class="img" src="C:\Users\Estudante\Downloads\emblem-oly.svg">
-     
-
-     </div>
+    <header class="cab">
+        <div class="color">
+            <img class="img" src="C:\Users\Estudante\Downloads\emblem-oly.svg">
 
 
+        </div>
 
-     </header>
 
-     <h2 style="text-align: center;">Resultados das Olimpíadas</h2>
+
+    </header>
+
+    <h2 style="text-align: center;">Resultados das Olimpíadas</h2>
 
     <table>
         <tr>
@@ -113,21 +128,30 @@ height: 500px;
             <td>20</td>
         </tr>
     </table>
- <div class="noticias">
-    <div class="noticia">
+    <div class="noticias">
+        <div class="noticia">
 
-        <img  src="https://agenda.ge/uploads/files/sport/talakhadze-tokyo-gold.jpg" alt="">
+            <img src="https://agenda.ge/uploads/files/sport/talakhadze-tokyo-gold.jpg" alt="">
+        </div>
+        <div>
+
+
+            <h1> Geórgio Lasha Talakhadze Brilha e Conquista Ouro Histórico no Levantamento de Terra em Paris 2024</h1>
+            <h3>Nos dias 7 a 11 de agosto de 2024, a Arena Sul Paris 6 (Paris Expo) foi palco de uma das competições
+                mais emocionantes das Olimpíadas, com o georgiano Lasha Talakhadze, que consolidou sua posição como um
+                dos maiores halterofilistas da história.
+
+                A performance de Lasha foi marcada por uma exibição de força e técnica impecáveis, culminando em um
+                levantamento final que garantiu o ouro com um placar impressionante. A multidão foi à loucura enquanto
+                ele superava seus próprios recordes, solidificando seu legado olímpico. Entre os destaques da
+                competição, além de Lasha, estiveram atletas como o chinês Li Dayin e o armênio Gor Minasyan, que também
+                entregaram desempenhos notáveis.
+
+                O impacto dessa vitória vai muito além das medalhas, reafirmando Lasha como uma lenda viva do esporte e
+                inspirando uma nova geração de halterofilistas. Os torcedores, emocionados, celebraram não só a vitória,
+                mas a jornada de um atleta que continua a elevar os padrões do levantamento de terra mundial.</h3>
+        </div>
     </div>
-    <div>
-
-      
- <h1>  Geórgio Lasha Talakhadze Brilha e Conquista Ouro Histórico no Levantamento de Terra em Paris 2024</h1>
-<h3>Nos dias 7 a 11 de agosto de 2024, a Arena Sul Paris 6 (Paris Expo) foi palco de uma das competições mais emocionantes das Olimpíadas, com o georgiano Lasha Talakhadze, que consolidou sua posição como um dos maiores halterofilistas da história.
-
-    A performance de Lasha foi marcada por uma exibição de força e técnica impecáveis, culminando em um levantamento final que garantiu o ouro com um placar impressionante. A multidão foi à loucura enquanto ele superava seus próprios recordes, solidificando seu legado olímpico. Entre os destaques da competição, além de Lasha, estiveram atletas como o chinês Li Dayin e o armênio Gor Minasyan, que também entregaram desempenhos notáveis.
-    
-    O impacto dessa vitória vai muito além das medalhas, reafirmando Lasha como uma lenda viva do esporte e inspirando uma nova geração de halterofilistas. Os torcedores, emocionados, celebraram não só a vitória, mas a jornada de um atleta que continua a elevar os padrões do levantamento de terra mundial.</h3>
-</div>
-</div>
 </body>
+
 </html>
