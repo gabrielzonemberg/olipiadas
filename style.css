@@ -1,0 +1,77 @@
+.noticia {
+    width: 80%;
+    height: 150%;
+}
+
+.noticia img {
+    width: 100%;
+}
+
+.img {
+    height: 100%;
+    width: 95%;
+    margin-bottom: 150px;
+
+}
+
+.cab {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/77/Eiffel_Tower_Marsfeld_Paris.jpg);
+    margin-bottom: 60px;
+    background-size: 4000px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.noticia {
+    display: flex;
+
+}
+
+
+
+
+@media (max-width:440px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media (min-width:760px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width:760px) {
+    body {
+        background-color: green;
+    }
+}
